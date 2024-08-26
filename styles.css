@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Poppins-Light", sans-serif;
+}
+
+@font-face {
+    font-family: "Poppins-Black";
+    src: url("../Euren-Loadouts/fonts/Poppins-Black.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../Euren-Loadouts/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../Euren-Loadouts/fonts/Poppins-Medium.ttf");
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(188, 15%, 10%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    color: #00fff6;
+}
+
+.navbar li {
+    font-family: "Poppins-Medium", sans-serif;
+}
+
+.logoImg {
+    display: flex;
+    align-items: center;
+}
+
+.logoImg img {
+    height: 50px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.txtLogo {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 15px;
+    color: #00fff6;
+    text-align: start;
+    text-shadow: 1.5px 1.5px rgb(0, 0, 0);}
+
+main {
+    background-color: #131313;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.txtMain {
+    font-family: "Poppins-Light", sans-serif;
+    text-align: start;
+    padding: 16px;
+    padding-top: 35px;
+    line-height: 60px;
+}
+
+#txtWarzoneMeta{
+    color: #00fff6;
+}
+
+p {
+    text-align: start;
+    font-family: "Poppins-Light", sans-serif;
+    line-height: 35px;
+}
+
+h3 {
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: start;
+}
+
+.article-box{
+    margin-top: 15px;
+    border-radius: 12px;
+}
+
+.div-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.div-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    margin-right: 16px;
+}
+
+.div-plusOrMinus{
+    margin-left: 16px
+}
+
+.div-text{
+    margin-right: auto;
+}
+
+.title-divtxt{
+    padding-left: 35px;
+    text-shadow: 1px 1px #000000;
+    font-size: 16px;
+    text-shadow: #131313;
+    font-family: "Poppins-Medium", sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.desc-divtxt{
+    padding-left: 35px;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 16px; 
+    color: white;
+}
+
+.box {
+    width: 100%;
+    height: 90px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .toggle-box {
+    margin-top: 0px;
+    border-radius: 12px;
+    width: 100%;
+    height: 215px;
+    border-bottom-width: 12px;
+    background-color: #151D1E;
+    display: flex;
+    text-align: center;
+} */
+
+.meta-section .article-box {
+    background: linear-gradient(147deg, #00fff7d0 -3%, #151D1E 45%);
+}
+
+.buff-section .article-box {
+    background: linear-gradient(147deg, #75C017 -3%, #151D1E 45%);
+}
+
+.nerf-section .article-box {
+    background: linear-gradient(147deg, #db0505 -3%, #151D1E 45%);
+}
+
+.pistol-section .article-box,
+.sniper-section .article-box,
+.assault-rifle-section .article-box,
+.smg-section .article-box,
+.lmg-section .article-box {
+    background: linear-gradient(147deg, #2e23c5ad -15%, #151D1E 45%);
+}
+
+.fa-solid.fa-plus, .fa-solid.fa-minus{
+    display: flex;
+    font-size: 18px;
+}
+
+.txt-toggle-box{
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.accessory-type{
+    color: white;
+}
+
+.accessory{
+    font-family: "Poppins-Medium", sans-serif;
+    margin-left: 100px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+}
+
+#meta-gun-list,
+#nerf-gun-list,
+#buff-gun-list,
+#sniper-gun-list,
+#pistol-gun-list,
+#assault-rifle-gun-list,
+#smg-gun-list,
+#lmg-gun-list {
+    list-style-type: none;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    list-style-type: none;
+}
+
+.social-media img{
+    width: 20%;
+    height: auto;
+}
